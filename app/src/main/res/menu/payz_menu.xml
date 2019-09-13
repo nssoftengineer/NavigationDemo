@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/home_img"
+            android:icon="@drawable/pz_ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/ac_history_img"
+            android:icon="@drawable/pz_ic_transaction_history"
+            android:title="Transaction History" />
+        <item
+            android:id="@+id/ac_manage_cards_img"
+            android:icon="@drawable/pz_ic_linked_card"
+            android:title="Linked Cards &amp; Accounts" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/support_img"
+            android:icon="@drawable/pz_ic_need_help"
+            android:title="Need Help" />
+        <item
+            android:id="@+id/ac_feedback_img"
+            android:icon="@drawable/pz_ic_feedback"
+            android:title="Share Feedback" />
+        <item
+            android:id="@+id/nav_promo_referral"
+            android:layout_marginTop="10dp"
+            app:actionLayout="@layout/ref_view"
+            android:icon="@drawable/pz_ic_refer"
+            android:title="Refer &amp; Earn"
+            />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/ac_setting_img"
+            android:icon="@drawable/pz_ic_settings"
+            android:title="App Settings" />
+        <item
+            android:id="@+id/ac_logout_img"
+            android:icon="@drawable/pz_ic_logout"
+            android:title="Logout" />
+
+    </group>
+</menu>
