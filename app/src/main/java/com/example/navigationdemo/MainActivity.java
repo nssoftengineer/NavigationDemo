@@ -33,8 +33,7 @@ import android.widget.Toast;
  * Created by neeraj singh 13/09/2019
  *
  */
-public class MainActivity extends AppCompatActivity
-        implements SecondFragment.OnFragmentInteractionListener, ThirdFragment.OnFragmentInteractionListener {
+public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
     private AppBarConfiguration appBarConfiguration;
@@ -88,8 +87,4 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void onFragmentInteraction(Uri uri) {
-
-    }
 }
