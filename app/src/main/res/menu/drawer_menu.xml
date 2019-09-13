@@ -38,8 +38,7 @@
             />
     </group>
     <group
-        android:id="@+id/group3"
-        android:checkableBehavior="none">
+        android:id="@+id/group3">
         <item
             android:id="@+id/ac_setting_img"
             android:icon="@drawable/pz_ic_settings"
@@ -48,6 +47,7 @@
             android:id="@+id/ac_logout_img"
             android:icon="@drawable/pz_ic_logout"
             android:title="Logout" />
-
     </group>
+
+
 </menu>
