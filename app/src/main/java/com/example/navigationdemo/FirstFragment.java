@@ -50,8 +50,6 @@ public class FirstFragment extends Fragment {
                 NavController navController = Navigation.findNavController(getActivity(), R.id.nav_host_fragment);
                 navController.navigate(R.id.action_firstFragment_to_secondFragment);
 
-                // new ActivityNavigator(getActivity()).createDestination().setIntent(new Intent(getActivity(), MyActivity.class)).navigate(null,null);
-
 
             }
         });
