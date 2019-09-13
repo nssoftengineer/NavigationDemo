@@ -41,16 +41,16 @@ public class SecondFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         Button button = (Button) view.findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                NavController navController = Navigation.findNavController(getActivity(), R.id.nav_host_fragment);
-                new NavOptions.Builder().setExitAnim(R.anim.fade_out);
-                navController.navigate(R.id.action_secondFragment_to_thirdFragment);
-
-
-            }
-        });
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                NavController navController = Navigation.findNavController(getActivity(), R.id.nav_host_fragment);
+//                new NavOptions.Builder().setExitAnim(R.anim.fade_out);
+//                navController.navigate(R.id.action_secondFragment_to_thirdFragment);
+//
+//
+//            }
+//        });
 
     }
 

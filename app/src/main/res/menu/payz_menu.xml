@@ -5,15 +5,15 @@
         android:id="@+id/group1"
         android:checkableBehavior="none">
         <item
-            android:id="@+id/home_img"
+            android:id="@+id/firstFragment"
             android:icon="@drawable/pz_ic_home"
             android:title="Home" />
         <item
-            android:id="@+id/ac_history_img"
+            android:id="@+id/secondFragment"
             android:icon="@drawable/pz_ic_transaction_history"
             android:title="Transaction History" />
         <item
-            android:id="@+id/ac_manage_cards_img"
+            android:id="@+id/thirdFragment"
             android:icon="@drawable/pz_ic_linked_card"
             android:title="Linked Cards &amp; Accounts" />
     </group>
@@ -22,7 +22,7 @@
         android:id="@+id/group2"
         android:checkableBehavior="none">
         <item
-            android:id="@+id/support_img"
+            android:id="@+id/activity"
             android:icon="@drawable/pz_ic_need_help"
             android:title="Need Help" />
         <item

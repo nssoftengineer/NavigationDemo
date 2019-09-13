@@ -43,18 +43,18 @@ public class FirstFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
 
-        Button button = (Button) view.findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                NavController navController = Navigation.findNavController(getActivity(), R.id.nav_host_fragment);
-                navController.navigate(R.id.action_firstFragment_to_secondFragment);
-
-                // new ActivityNavigator(getActivity()).createDestination().setIntent(new Intent(getActivity(), MyActivity.class)).navigate(null,null);
-
-
-            }
-        });
+//        Button button = (Button) view.findViewById(R.id.button);
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                NavController navController = Navigation.findNavController(getActivity(), R.id.nav_host_fragment);
+//                navController.navigate(R.id.action_firstFragment_to_secondFragment);
+//
+//                // new ActivityNavigator(getActivity()).createDestination().setIntent(new Intent(getActivity(), MyActivity.class)).navigate(null,null);
+//
+//
+//            }
+//        });
 
     }
 }
